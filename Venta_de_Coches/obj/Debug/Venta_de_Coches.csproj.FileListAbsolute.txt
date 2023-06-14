@@ -1,0 +1,11 @@
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\bin\Debug\Venta_de_Coches.exe.config
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\bin\Debug\Venta_de_Coches.exe
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\bin\Debug\Venta_de_Coches.pdb
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.csproj.AssemblyReference.cache
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.csproj.SuggestedBindingRedirects.cache
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_Uno.resources
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Properties.Resources.resources
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.csproj.GenerateResource.cache
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.csproj.CoreCompileInputs.cache
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.exe
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.pdb
