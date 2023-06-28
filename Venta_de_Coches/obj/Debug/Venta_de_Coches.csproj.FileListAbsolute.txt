@@ -9,3 +9,5 @@ C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debu
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.csproj.CoreCompileInputs.cache
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.exe
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.pdb
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.CochesGestionar.resources
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_Principal.resources

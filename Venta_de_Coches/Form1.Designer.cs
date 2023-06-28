@@ -57,6 +57,7 @@
             this.Btn_acceder.TabIndex = 2;
             this.Btn_acceder.Text = "ACCEDER";
             this.Btn_acceder.UseVisualStyleBackColor = true;
+            this.Btn_acceder.Click += new System.EventHandler(this.Btn_acceder_Click);
             // 
             // lbl_user
             // 
@@ -89,6 +90,7 @@
             // 
             this.txt_contra.Location = new System.Drawing.Point(247, 312);
             this.txt_contra.Name = "txt_contra";
+            this.txt_contra.PasswordChar = '*';
             this.txt_contra.Size = new System.Drawing.Size(239, 20);
             this.txt_contra.TabIndex = 6;
             // 
