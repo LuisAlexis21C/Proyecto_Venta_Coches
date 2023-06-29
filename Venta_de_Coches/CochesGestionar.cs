@@ -31,5 +31,11 @@ namespace Venta_de_Coches
         {
 
         }
+
+        private void btn_edit_Click(object sender, EventArgs e)
+        {
+            Frm_nuevo nuv = new Frm_nuevo();
+            nuv.ShowDialog();
+        }
     }
 }

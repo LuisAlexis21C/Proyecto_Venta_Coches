@@ -38,6 +38,7 @@
             this.sALIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.nUEVOCOCHEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -51,18 +52,19 @@
             this.rEALIZARCOMPRAToolStripMenuItem,
             this.gENERARRECIBOToolStripMenuItem,
             this.cREARREPORTESToolStripMenuItem,
+            this.nUEVOCOCHEToolStripMenuItem,
             this.sALIRToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(899, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(997, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // bUSCARVEHICULOToolStripMenuItem
             // 
             this.bUSCARVEHICULOToolStripMenuItem.Name = "bUSCARVEHICULOToolStripMenuItem";
-            this.bUSCARVEHICULOToolStripMenuItem.Size = new System.Drawing.Size(122, 20);
-            this.bUSCARVEHICULOToolStripMenuItem.Text = "BUSCAR VEHICULO";
+            this.bUSCARVEHICULOToolStripMenuItem.Size = new System.Drawing.Size(106, 20);
+            this.bUSCARVEHICULOToolStripMenuItem.Text = "BUSCAR COCHE";
             this.bUSCARVEHICULOToolStripMenuItem.Click += new System.EventHandler(this.bUSCARVEHICULOToolStripMenuItem_Click);
             // 
             // gESTIONARUSUARIOSToolStripMenuItem
@@ -74,8 +76,8 @@
             // gESTIONARVEHICULOSToolStripMenuItem
             // 
             this.gESTIONARVEHICULOSToolStripMenuItem.Name = "gESTIONARVEHICULOSToolStripMenuItem";
-            this.gESTIONARVEHICULOSToolStripMenuItem.Size = new System.Drawing.Size(146, 20);
-            this.gESTIONARVEHICULOSToolStripMenuItem.Text = "GESTIONAR VEHICULOS";
+            this.gESTIONARVEHICULOSToolStripMenuItem.Size = new System.Drawing.Size(130, 20);
+            this.gESTIONARVEHICULOSToolStripMenuItem.Text = "GESTIONAR COCHES";
             this.gESTIONARVEHICULOSToolStripMenuItem.Click += new System.EventHandler(this.gESTIONARVEHICULOSToolStripMenuItem_Click);
             // 
             // rEALIZARCOMPRAToolStripMenuItem
@@ -83,12 +85,14 @@
             this.rEALIZARCOMPRAToolStripMenuItem.Name = "rEALIZARCOMPRAToolStripMenuItem";
             this.rEALIZARCOMPRAToolStripMenuItem.Size = new System.Drawing.Size(124, 20);
             this.rEALIZARCOMPRAToolStripMenuItem.Text = "REALIZAR COMPRA";
+            this.rEALIZARCOMPRAToolStripMenuItem.Click += new System.EventHandler(this.rEALIZARCOMPRAToolStripMenuItem_Click);
             // 
             // gENERARRECIBOToolStripMenuItem
             // 
             this.gENERARRECIBOToolStripMenuItem.Name = "gENERARRECIBOToolStripMenuItem";
             this.gENERARRECIBOToolStripMenuItem.Size = new System.Drawing.Size(113, 20);
             this.gENERARRECIBOToolStripMenuItem.Text = "GENERAR RECIBO";
+            this.gENERARRECIBOToolStripMenuItem.Click += new System.EventHandler(this.gENERARRECIBOToolStripMenuItem_Click);
             // 
             // cREARREPORTESToolStripMenuItem
             // 
@@ -101,6 +105,7 @@
             this.sALIRToolStripMenuItem.Name = "sALIRToolStripMenuItem";
             this.sALIRToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
             this.sALIRToolStripMenuItem.Text = "SALIR";
+            this.sALIRToolStripMenuItem.Click += new System.EventHandler(this.sALIRToolStripMenuItem_Click);
             // 
             // statusStrip1
             // 
@@ -108,7 +113,7 @@
             this.toolStripStatusLabel1});
             this.statusStrip1.Location = new System.Drawing.Point(0, 390);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(899, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(997, 22);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -118,11 +123,18 @@
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(152, 17);
             this.toolStripStatusLabel1.Text = "Importadora KING MOTORS";
             // 
+            // nUEVOCOCHEToolStripMenuItem
+            // 
+            this.nUEVOCOCHEToolStripMenuItem.Name = "nUEVOCOCHEToolStripMenuItem";
+            this.nUEVOCOCHEToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
+            this.nUEVOCOCHEToolStripMenuItem.Text = "NUEVO COCHE";
+            this.nUEVOCOCHEToolStripMenuItem.Click += new System.EventHandler(this.nUEVOCOCHEToolStripMenuItem_Click);
+            // 
             // Frm_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(899, 412);
+            this.ClientSize = new System.Drawing.Size(997, 412);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
@@ -150,5 +162,6 @@
         private System.Windows.Forms.ToolStripMenuItem sALIRToolStripMenuItem;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripMenuItem nUEVOCOCHEToolStripMenuItem;
     }
 }

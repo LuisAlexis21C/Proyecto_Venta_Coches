@@ -9,7 +9,10 @@ C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debu
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.exe
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.pdb
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_Principal.resources
-C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Registrar_venta.resources
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_CochesGestionar.resources
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_verificacion.resources
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_Recibo.resources
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_nuevo.resources
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_Registrar_venta.resources
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_buscar.resources
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_usuario.resources

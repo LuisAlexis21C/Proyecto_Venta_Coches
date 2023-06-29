@@ -1,6 +1,6 @@
 ﻿namespace Venta_de_Coches
 {
-    partial class Registrar_venta
+    partial class Frm_Registrar_venta
     {
         /// <summary>
         /// Required designer variable.
@@ -345,7 +345,7 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // Registrar_venta
+            // Frm_Registrar_venta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -381,7 +381,7 @@
             this.Controls.Add(this.lbl_registro);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dateTimePicker1);
-            this.Name = "Registrar_venta";
+            this.Name = "Frm_Registrar_venta";
             this.Text = "Registrar_venta";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
