@@ -1,6 +1,6 @@
 ﻿namespace Venta_de_Coches
 {
-    partial class Frm_Uno
+    partial class Frm_verificacion
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -41,7 +41,7 @@
             // 
             // Btn_Salir
             // 
-            this.Btn_Salir.Location = new System.Drawing.Point(345, 363);
+            this.Btn_Salir.Location = new System.Drawing.Point(247, 356);
             this.Btn_Salir.Name = "Btn_Salir";
             this.Btn_Salir.Size = new System.Drawing.Size(97, 36);
             this.Btn_Salir.TabIndex = 1;
@@ -51,7 +51,7 @@
             // 
             // Btn_acceder
             // 
-            this.Btn_acceder.Location = new System.Drawing.Point(173, 363);
+            this.Btn_acceder.Location = new System.Drawing.Point(75, 356);
             this.Btn_acceder.Name = "Btn_acceder";
             this.Btn_acceder.Size = new System.Drawing.Size(97, 36);
             this.Btn_acceder.TabIndex = 2;
@@ -63,7 +63,7 @@
             // 
             this.lbl_user.AutoSize = true;
             this.lbl_user.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_user.Location = new System.Drawing.Point(132, 260);
+            this.lbl_user.Location = new System.Drawing.Point(34, 253);
             this.lbl_user.Name = "lbl_user";
             this.lbl_user.Size = new System.Drawing.Size(75, 23);
             this.lbl_user.TabIndex = 3;
@@ -73,7 +73,7 @@
             // 
             this.lbl_contra.AutoSize = true;
             this.lbl_contra.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_contra.Location = new System.Drawing.Point(132, 312);
+            this.lbl_contra.Location = new System.Drawing.Point(34, 305);
             this.lbl_contra.Name = "lbl_contra";
             this.lbl_contra.Size = new System.Drawing.Size(107, 23);
             this.lbl_contra.TabIndex = 4;
@@ -81,14 +81,14 @@
             // 
             // txt_user
             // 
-            this.txt_user.Location = new System.Drawing.Point(247, 265);
+            this.txt_user.Location = new System.Drawing.Point(149, 258);
             this.txt_user.Name = "txt_user";
             this.txt_user.Size = new System.Drawing.Size(239, 20);
             this.txt_user.TabIndex = 5;
             // 
             // txt_contra
             // 
-            this.txt_contra.Location = new System.Drawing.Point(247, 312);
+            this.txt_contra.Location = new System.Drawing.Point(149, 305);
             this.txt_contra.Name = "txt_contra";
             this.txt_contra.PasswordChar = '*';
             this.txt_contra.Size = new System.Drawing.Size(239, 20);
@@ -99,26 +99,29 @@
             this.Lbl_titulo.AutoSize = true;
             this.Lbl_titulo.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_titulo.ForeColor = System.Drawing.Color.Red;
-            this.Lbl_titulo.Location = new System.Drawing.Point(256, 23);
+            this.Lbl_titulo.Location = new System.Drawing.Point(129, 18);
             this.Lbl_titulo.Name = "Lbl_titulo";
-            this.Lbl_titulo.Size = new System.Drawing.Size(149, 36);
+            this.Lbl_titulo.Size = new System.Drawing.Size(168, 36);
             this.Lbl_titulo.TabIndex = 7;
-            this.Lbl_titulo.Text = "BIENVENIDO";
+            this.Lbl_titulo.Text = "BIENVENIDO A";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(220, 74);
+            this.pictureBox1.Image = global::Venta_de_Coches.Properties.Resources.motors;
+            this.pictureBox1.Location = new System.Drawing.Point(102, 67);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(222, 166);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // Frm_Uno
+            // Frm_verificacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(658, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ClientSize = new System.Drawing.Size(421, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Lbl_titulo);
             this.Controls.Add(this.txt_contra);
@@ -127,7 +130,7 @@
             this.Controls.Add(this.lbl_user);
             this.Controls.Add(this.Btn_acceder);
             this.Controls.Add(this.Btn_Salir);
-            this.Name = "Frm_Uno";
+            this.Name = "Frm_verificacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Verificacion de Usuario";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

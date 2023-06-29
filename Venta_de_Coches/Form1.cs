@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Venta_de_Coches
 {
-    public partial class Frm_Uno : Form
+    public partial class Frm_verificacion : Form
     {
-        public Frm_Uno()
+        public Frm_verificacion()
         {
             InitializeComponent();
         }

@@ -10,26 +10,22 @@ using System.Windows.Forms;
 
 namespace Venta_de_Coches
 {
-    public partial class Frm_CochesGestionar : Form
+    public partial class Registrar_venta : Form
     {
-        public Frm_CochesGestionar()
+        public Registrar_venta()
         {
             InitializeComponent();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
+            Frm_Recibo frm_Recibo = new Frm_Recibo();   
+            frm_Recibo.ShowDialog();
         }
     }
 }

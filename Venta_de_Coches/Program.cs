@@ -16,7 +16,7 @@ namespace Venta_de_Coches
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_Uno());
+            Application.Run(new Frm_verificacion());
         }
     }
 }

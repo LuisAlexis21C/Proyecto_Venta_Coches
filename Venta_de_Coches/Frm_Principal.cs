@@ -16,5 +16,16 @@ namespace Venta_de_Coches
         {
             InitializeComponent();
         }
+
+        private void bUSCARVEHICULOToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gESTIONARVEHICULOSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_CochesGestionar frm_Coches = new Frm_CochesGestionar(); 
+            frm_Coches.ShowDialog();
+        }
     }
 }
