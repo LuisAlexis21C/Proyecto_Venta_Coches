@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Venta_de_Coches
 {
-    public partial class Frm_usuario_nuevo : Form
+    public partial class Frm_Buscar_users : Form
     {
-        public Frm_usuario_nuevo()
+        public Frm_Buscar_users()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Frm_usuario_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

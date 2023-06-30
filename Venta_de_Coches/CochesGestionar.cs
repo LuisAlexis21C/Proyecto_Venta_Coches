@@ -37,5 +37,15 @@ namespace Venta_de_Coches
             Frm_nuevo nuv = new Frm_nuevo();
             nuv.ShowDialog();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btn_sal_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

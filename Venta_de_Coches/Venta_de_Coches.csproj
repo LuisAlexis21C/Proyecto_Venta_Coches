@@ -64,6 +64,18 @@
     <Compile Include="Frm_buscar.Designer.cs">
       <DependentUpon>Frm_buscar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Buscar_users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Buscar_users.Designer.cs">
+      <DependentUpon>Frm_Buscar_users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_gestionarUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_gestionarUser.Designer.cs">
+      <DependentUpon>Frm_gestionarUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_nuevo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +116,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_buscar.resx">
       <DependentUpon>Frm_buscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Buscar_users.resx">
+      <DependentUpon>Frm_Buscar_users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_gestionarUser.resx">
+      <DependentUpon>Frm_gestionarUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_nuevo.resx">
       <DependentUpon>Frm_nuevo.cs</DependentUpon>

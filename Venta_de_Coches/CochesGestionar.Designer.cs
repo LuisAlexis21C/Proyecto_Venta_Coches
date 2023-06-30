@@ -41,7 +41,6 @@
             this.btn_sal = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.CODIGO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.editar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.MODELO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.COLOR = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CILINDRADA = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -96,7 +95,6 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.CODIGO,
-            this.editar,
             this.MODELO,
             this.COLOR,
             this.CILINDRADA,
@@ -107,8 +105,9 @@
             this.PRECIO});
             this.dataGridView1.Location = new System.Drawing.Point(7, 113);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(933, 221);
+            this.dataGridView1.Size = new System.Drawing.Size(942, 224);
             this.dataGridView1.TabIndex = 4;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // label2
             // 
@@ -123,9 +122,9 @@
             // 
             // btn_nuevo
             // 
-            this.btn_nuevo.Location = new System.Drawing.Point(691, 323);
+            this.btn_nuevo.Location = new System.Drawing.Point(967, 245);
             this.btn_nuevo.Name = "btn_nuevo";
-            this.btn_nuevo.Size = new System.Drawing.Size(133, 38);
+            this.btn_nuevo.Size = new System.Drawing.Size(106, 38);
             this.btn_nuevo.TabIndex = 6;
             this.btn_nuevo.Text = "NUEVO";
             this.btn_nuevo.UseVisualStyleBackColor = true;
@@ -133,9 +132,9 @@
             // 
             // btn_eliminar
             // 
-            this.btn_eliminar.Location = new System.Drawing.Point(705, 259);
+            this.btn_eliminar.Location = new System.Drawing.Point(967, 201);
             this.btn_eliminar.Name = "btn_eliminar";
-            this.btn_eliminar.Size = new System.Drawing.Size(133, 38);
+            this.btn_eliminar.Size = new System.Drawing.Size(106, 38);
             this.btn_eliminar.TabIndex = 7;
             this.btn_eliminar.Text = "ELIMINAR";
             this.btn_eliminar.UseVisualStyleBackColor = true;
@@ -143,9 +142,9 @@
             // 
             // btn_edit
             // 
-            this.btn_edit.Location = new System.Drawing.Point(819, 279);
+            this.btn_edit.Location = new System.Drawing.Point(967, 157);
             this.btn_edit.Name = "btn_edit";
-            this.btn_edit.Size = new System.Drawing.Size(133, 38);
+            this.btn_edit.Size = new System.Drawing.Size(106, 38);
             this.btn_edit.TabIndex = 8;
             this.btn_edit.Text = "EDITAR";
             this.btn_edit.UseVisualStyleBackColor = true;
@@ -153,21 +152,22 @@
             // 
             // btn_vol
             // 
-            this.btn_vol.Location = new System.Drawing.Point(946, 245);
+            this.btn_vol.Location = new System.Drawing.Point(967, 113);
             this.btn_vol.Name = "btn_vol";
-            this.btn_vol.Size = new System.Drawing.Size(133, 38);
+            this.btn_vol.Size = new System.Drawing.Size(106, 38);
             this.btn_vol.TabIndex = 9;
             this.btn_vol.Text = "VOLVER";
             this.btn_vol.UseVisualStyleBackColor = true;
             // 
             // btn_sal
             // 
-            this.btn_sal.Location = new System.Drawing.Point(946, 289);
+            this.btn_sal.Location = new System.Drawing.Point(967, 289);
             this.btn_sal.Name = "btn_sal";
-            this.btn_sal.Size = new System.Drawing.Size(133, 38);
+            this.btn_sal.Size = new System.Drawing.Size(106, 38);
             this.btn_sal.TabIndex = 10;
             this.btn_sal.Text = "SALIR";
             this.btn_sal.UseVisualStyleBackColor = true;
+            this.btn_sal.Click += new System.EventHandler(this.btn_sal_Click);
             // 
             // pictureBox1
             // 
@@ -183,13 +183,6 @@
             // 
             this.CODIGO.HeaderText = "CODIGO";
             this.CODIGO.Name = "CODIGO";
-            // 
-            // editar
-            // 
-            this.editar.HeaderText = "Editar";
-            this.editar.Name = "editar";
-            this.editar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.editar.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
             // MODELO
             // 
@@ -236,7 +229,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1085, 373);
+            this.ClientSize = new System.Drawing.Size(1092, 373);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_sal);
             this.Controls.Add(this.btn_vol);
@@ -273,7 +266,6 @@
         private System.Windows.Forms.Button btn_sal;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn CODIGO;
-        private System.Windows.Forms.DataGridViewButtonColumn editar;
         private System.Windows.Forms.DataGridViewTextBoxColumn MODELO;
         private System.Windows.Forms.DataGridViewTextBoxColumn COLOR;
         private System.Windows.Forms.DataGridViewTextBoxColumn CILINDRADA;

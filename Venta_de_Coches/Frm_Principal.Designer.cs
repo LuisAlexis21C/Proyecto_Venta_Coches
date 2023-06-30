@@ -35,10 +35,11 @@
             this.rEALIZARCOMPRAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gENERARRECIBOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cREARREPORTESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nUEVOCOCHEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sALIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.nUEVOCOCHEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bUSCARPERSONALToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -53,10 +54,11 @@
             this.gENERARRECIBOToolStripMenuItem,
             this.cREARREPORTESToolStripMenuItem,
             this.nUEVOCOCHEToolStripMenuItem,
-            this.sALIRToolStripMenuItem});
+            this.sALIRToolStripMenuItem,
+            this.bUSCARPERSONALToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(997, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1040, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -72,6 +74,7 @@
             this.gESTIONARUSUARIOSToolStripMenuItem.Name = "gESTIONARUSUARIOSToolStripMenuItem";
             this.gESTIONARUSUARIOSToolStripMenuItem.Size = new System.Drawing.Size(139, 20);
             this.gESTIONARUSUARIOSToolStripMenuItem.Text = "GESTIONAR USUARIOS";
+            this.gESTIONARUSUARIOSToolStripMenuItem.Click += new System.EventHandler(this.gESTIONARUSUARIOSToolStripMenuItem_Click);
             // 
             // gESTIONARVEHICULOSToolStripMenuItem
             // 
@@ -100,6 +103,13 @@
             this.cREARREPORTESToolStripMenuItem.Size = new System.Drawing.Size(111, 20);
             this.cREARREPORTESToolStripMenuItem.Text = "CREAR REPORTES";
             // 
+            // nUEVOCOCHEToolStripMenuItem
+            // 
+            this.nUEVOCOCHEToolStripMenuItem.Name = "nUEVOCOCHEToolStripMenuItem";
+            this.nUEVOCOCHEToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
+            this.nUEVOCOCHEToolStripMenuItem.Text = "NUEVO COCHE";
+            this.nUEVOCOCHEToolStripMenuItem.Click += new System.EventHandler(this.nUEVOCOCHEToolStripMenuItem_Click);
+            // 
             // sALIRToolStripMenuItem
             // 
             this.sALIRToolStripMenuItem.Name = "sALIRToolStripMenuItem";
@@ -113,7 +123,7 @@
             this.toolStripStatusLabel1});
             this.statusStrip1.Location = new System.Drawing.Point(0, 390);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(997, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1040, 22);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -123,18 +133,17 @@
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(152, 17);
             this.toolStripStatusLabel1.Text = "Importadora KING MOTORS";
             // 
-            // nUEVOCOCHEToolStripMenuItem
+            // bUSCARPERSONALToolStripMenuItem
             // 
-            this.nUEVOCOCHEToolStripMenuItem.Name = "nUEVOCOCHEToolStripMenuItem";
-            this.nUEVOCOCHEToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
-            this.nUEVOCOCHEToolStripMenuItem.Text = "NUEVO COCHE";
-            this.nUEVOCOCHEToolStripMenuItem.Click += new System.EventHandler(this.nUEVOCOCHEToolStripMenuItem_Click);
+            this.bUSCARPERSONALToolStripMenuItem.Name = "bUSCARPERSONALToolStripMenuItem";
+            this.bUSCARPERSONALToolStripMenuItem.Size = new System.Drawing.Size(121, 20);
+            this.bUSCARPERSONALToolStripMenuItem.Text = "BUSCAR USUARIOS";
             // 
             // Frm_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(997, 412);
+            this.ClientSize = new System.Drawing.Size(1040, 412);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
@@ -163,5 +172,6 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripMenuItem nUEVOCOCHEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bUSCARPERSONALToolStripMenuItem;
     }
 }

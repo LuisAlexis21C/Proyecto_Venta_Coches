@@ -51,5 +51,11 @@ namespace Venta_de_Coches
             Frm_nuevo nuevo = new Frm_nuevo();  
             nuevo.ShowDialog();
         }
+
+        private void gESTIONARUSUARIOSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_gestionarUser user = new Frm_gestionarUser();
+            user.ShowDialog();
+        }
     }
 }
