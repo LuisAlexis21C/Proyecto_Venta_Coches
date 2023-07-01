@@ -50,7 +50,7 @@ namespace Venta_de_Coches
 
         private void btn_edit_Click(object sender, EventArgs e)
         {
-            
+            Dgv_coche.Rows.Add(txt_codigo.Text, txt_marca.Text, txt_modelo.Text, txt_color.Text,txt_combustible.Text,txt_cilindra.Text, txt_tipo.Text,txt_fabricacion.Text,cb_transision, txt_precio.Text);
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

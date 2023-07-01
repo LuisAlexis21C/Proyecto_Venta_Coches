@@ -49,25 +49,25 @@
             this.btn_vol = new System.Windows.Forms.Button();
             this.btn_sal = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.cb_transision = new System.Windows.Forms.ComboBox();
+            this.txt_precio = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txt_fabricacion = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txt_tipo = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt_cilindra = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txt_combustible = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_color = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_modelo = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.txt_codigo = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txt_marca = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_coche)).BeginInit();
@@ -246,23 +246,23 @@
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
-            // comboBox1
+            // cb_transision
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cb_transision.FormattingEnabled = true;
+            this.cb_transision.Items.AddRange(new object[] {
             "Automatica",
             "Manual"});
-            this.comboBox1.Location = new System.Drawing.Point(1106, 389);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(149, 21);
-            this.comboBox1.TabIndex = 74;
+            this.cb_transision.Location = new System.Drawing.Point(1106, 389);
+            this.cb_transision.Name = "cb_transision";
+            this.cb_transision.Size = new System.Drawing.Size(149, 21);
+            this.cb_transision.TabIndex = 74;
             // 
-            // textBox9
+            // txt_precio
             // 
-            this.textBox9.Location = new System.Drawing.Point(1106, 424);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(203, 20);
-            this.textBox9.TabIndex = 71;
+            this.txt_precio.Location = new System.Drawing.Point(1106, 424);
+            this.txt_precio.Name = "txt_precio";
+            this.txt_precio.Size = new System.Drawing.Size(203, 20);
+            this.txt_precio.TabIndex = 71;
             // 
             // label9
             // 
@@ -284,12 +284,12 @@
             this.label8.TabIndex = 69;
             this.label8.Text = "Transmision:";
             // 
-            // textBox7
+            // txt_fabricacion
             // 
-            this.textBox7.Location = new System.Drawing.Point(1106, 353);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(203, 20);
-            this.textBox7.TabIndex = 68;
+            this.txt_fabricacion.Location = new System.Drawing.Point(1106, 353);
+            this.txt_fabricacion.Name = "txt_fabricacion";
+            this.txt_fabricacion.Size = new System.Drawing.Size(203, 20);
+            this.txt_fabricacion.TabIndex = 68;
             // 
             // label7
             // 
@@ -301,12 +301,12 @@
             this.label7.TabIndex = 67;
             this.label7.Text = "Fabricacion:";
             // 
-            // textBox6
+            // txt_tipo
             // 
-            this.textBox6.Location = new System.Drawing.Point(1106, 317);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(203, 20);
-            this.textBox6.TabIndex = 66;
+            this.txt_tipo.Location = new System.Drawing.Point(1106, 317);
+            this.txt_tipo.Name = "txt_tipo";
+            this.txt_tipo.Size = new System.Drawing.Size(203, 20);
+            this.txt_tipo.TabIndex = 66;
             // 
             // label6
             // 
@@ -318,12 +318,12 @@
             this.label6.TabIndex = 65;
             this.label6.Text = "Tipo:";
             // 
-            // textBox4
+            // txt_cilindra
             // 
-            this.textBox4.Location = new System.Drawing.Point(1106, 282);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(203, 20);
-            this.textBox4.TabIndex = 64;
+            this.txt_cilindra.Location = new System.Drawing.Point(1106, 282);
+            this.txt_cilindra.Name = "txt_cilindra";
+            this.txt_cilindra.Size = new System.Drawing.Size(203, 20);
+            this.txt_cilindra.TabIndex = 64;
             // 
             // label4
             // 
@@ -335,12 +335,12 @@
             this.label4.TabIndex = 63;
             this.label4.Text = "Cilindrada:";
             // 
-            // textBox5
+            // txt_combustible
             // 
-            this.textBox5.Location = new System.Drawing.Point(1106, 247);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(203, 20);
-            this.textBox5.TabIndex = 62;
+            this.txt_combustible.Location = new System.Drawing.Point(1106, 247);
+            this.txt_combustible.Name = "txt_combustible";
+            this.txt_combustible.Size = new System.Drawing.Size(203, 20);
+            this.txt_combustible.TabIndex = 62;
             // 
             // label5
             // 
@@ -352,12 +352,12 @@
             this.label5.TabIndex = 61;
             this.label5.Text = "Combustible:";
             // 
-            // textBox3
+            // txt_color
             // 
-            this.textBox3.Location = new System.Drawing.Point(1106, 213);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(203, 20);
-            this.textBox3.TabIndex = 60;
+            this.txt_color.Location = new System.Drawing.Point(1106, 213);
+            this.txt_color.Name = "txt_color";
+            this.txt_color.Size = new System.Drawing.Size(203, 20);
+            this.txt_color.TabIndex = 60;
             // 
             // label3
             // 
@@ -369,12 +369,12 @@
             this.label3.TabIndex = 59;
             this.label3.Text = "Color:";
             // 
-            // textBox2
+            // txt_modelo
             // 
-            this.textBox2.Location = new System.Drawing.Point(1106, 177);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(203, 20);
-            this.textBox2.TabIndex = 58;
+            this.txt_modelo.Location = new System.Drawing.Point(1106, 177);
+            this.txt_modelo.Name = "txt_modelo";
+            this.txt_modelo.Size = new System.Drawing.Size(203, 20);
+            this.txt_modelo.TabIndex = 58;
             // 
             // label10
             // 
@@ -382,16 +382,16 @@
             this.label10.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(977, 174);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(53, 20);
+            this.label10.Size = new System.Drawing.Size(59, 20);
             this.label10.TabIndex = 57;
-            this.label10.Text = "Marca:";
+            this.label10.Text = "Modelo:";
             // 
-            // textBox11
+            // txt_codigo
             // 
-            this.textBox11.Location = new System.Drawing.Point(1106, 105);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(203, 20);
-            this.textBox11.TabIndex = 56;
+            this.txt_codigo.Location = new System.Drawing.Point(1106, 105);
+            this.txt_codigo.Name = "txt_codigo";
+            this.txt_codigo.Size = new System.Drawing.Size(203, 20);
+            this.txt_codigo.TabIndex = 56;
             // 
             // label13
             // 
@@ -403,12 +403,12 @@
             this.label13.TabIndex = 55;
             this.label13.Text = "Codigo:";
             // 
-            // textBox8
+            // txt_marca
             // 
-            this.textBox8.Location = new System.Drawing.Point(1106, 140);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(203, 20);
-            this.textBox8.TabIndex = 76;
+            this.txt_marca.Location = new System.Drawing.Point(1106, 140);
+            this.txt_marca.Name = "txt_marca";
+            this.txt_marca.Size = new System.Drawing.Size(203, 20);
+            this.txt_marca.TabIndex = 76;
             // 
             // label11
             // 
@@ -438,25 +438,25 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(1370, 505);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.txt_marca);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.cb_transision);
+            this.Controls.Add(this.txt_precio);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txt_fabricacion);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txt_tipo);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txt_cilindra);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txt_combustible);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txt_color);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txt_modelo);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.txt_codigo);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_sal);
@@ -502,25 +502,25 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn FABRICACION;
         private System.Windows.Forms.DataGridViewTextBoxColumn TRANSMISION;
         private System.Windows.Forms.DataGridViewTextBoxColumn PRECIO;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.ComboBox cb_transision;
+        private System.Windows.Forms.TextBox txt_precio;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txt_fabricacion;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txt_tipo;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txt_cilindra;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txt_combustible;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_color;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_modelo;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox txt_codigo;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txt_marca;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
     }
