@@ -49,14 +49,10 @@ namespace Venta_de_Coches
         }
 
         private void btn_edit_Click(object sender, EventArgs e)
-        {
-            Dgv_coche.Rows.Add(txt_codigo.Text, txt_marca.Text, txt_modelo.Text, txt_color.Text,txt_combustible.Text,txt_cilindra.Text, txt_tipo.Text,txt_fabricacion.Text,cb_transision, txt_precio.Text);
+        { 
+            Dgv_coche.Rows.Add(txt_codigo.Text, txt_marca.Text, txt_modelo.Text, txt_color.Text, txt_cilindra.Text,txt_combustible.Text, txt_tipo.Text,txt_fabricacion.Text,cb_transision.Text, txt_precio.Text);
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
 
         private void btn_sal_Click(object sender, EventArgs e)
         {
@@ -65,7 +61,40 @@ namespace Venta_de_Coches
 
         private void btn_vol_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Dispose();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            txt_color.Text = "";
+            txt_codigo.Text = "";
+            txt_marca.Text = "";
+            txt_modelo.Text = "";
+            txt_combustible.Text = "";
+            txt_cilindra.Text = "";
+            txt_tipo.Text = "";
+            txt_fabricacion.Text = "";
+            cb_transision.Text = "";
+            txt_precio.Text = "";
+        }
+
+        private void Dgv_coche_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txt_codigo.Text = Dgv_coche.CurrentRow.Cells[0].Value.ToString();
+            txt_marca.Text = Dgv_coche.CurrentRow.Cells[1].Value.ToString();
+            txt_modelo.Text = Dgv_coche.CurrentRow.Cells[2].Value.ToString();
+            txt_color.Text = Dgv_coche.CurrentRow.Cells[3].Value.ToString();
+            txt_combustible.Text = Dgv_coche.CurrentRow.Cells[4].Value.ToString();
+            txt_cilindra.Text = Dgv_coche.CurrentRow.Cells[5].Value.ToString();
+            txt_tipo.Text = Dgv_coche.CurrentRow.Cells[6].Value.ToString();
+            txt_fabricacion.Text = Dgv_coche.CurrentRow.Cells[7].Value.ToString();
+            cb_transision.Text = Dgv_coche.CurrentRow.Cells[8].Value.ToString();
+            txt_precio.Text = Dgv_coche.CurrentRow.Cells[9].Value.ToString();
+        }
+
+        private void Dgv_coche_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
         }
     }
 }

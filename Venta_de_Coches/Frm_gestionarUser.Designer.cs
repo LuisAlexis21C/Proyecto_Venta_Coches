@@ -47,14 +47,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.txt_apellido = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.txt_nomuser = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.Rb_fem = new System.Windows.Forms.RadioButton();
-            this.Rb_mac = new System.Windows.Forms.RadioButton();
             this.txt_edad = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -67,9 +64,11 @@
             this.txt_nombre = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.rb_vnd = new System.Windows.Forms.RadioButton();
-            this.rb_grt = new System.Windows.Forms.RadioButton();
             this.btn_nuevo = new System.Windows.Forms.Button();
+            this.cb_gnero = new System.Windows.Forms.ComboBox();
+            this.cb_rol = new System.Windows.Forms.ComboBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_user)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -96,11 +95,11 @@
             // 
             // btn_guardar
             // 
-            this.btn_guardar.Location = new System.Drawing.Point(1121, 431);
+            this.btn_guardar.Location = new System.Drawing.Point(1048, 431);
             this.btn_guardar.Name = "btn_guardar";
             this.btn_guardar.Size = new System.Drawing.Size(106, 38);
             this.btn_guardar.TabIndex = 20;
-            this.btn_guardar.Text = "GUARDAR";
+            this.btn_guardar.Text = "ACTUALIZAR";
             this.btn_guardar.UseVisualStyleBackColor = true;
             this.btn_guardar.Click += new System.EventHandler(this.btn_edit_Click);
             // 
@@ -142,6 +141,8 @@
             this.dgv_user.Name = "dgv_user";
             this.dgv_user.Size = new System.Drawing.Size(942, 224);
             this.dgv_user.TabIndex = 16;
+            this.dgv_user.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_user_CellClick);
+            this.dgv_user.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_user_CellContentClick);
             // 
             // nom
             // 
@@ -224,16 +225,6 @@
             this.label1.TabIndex = 12;
             this.label1.Text = "BUSQUEDA DE USUARIOS POR: NOMBRE | CARNET | CELULAR | EDAD";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Venta_de_Coches.Properties.Resources.motors;
-            this.pictureBox1.Location = new System.Drawing.Point(728, 15);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(154, 82);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 23;
-            this.pictureBox1.TabStop = false;
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -277,30 +268,6 @@
             this.label7.Size = new System.Drawing.Size(117, 20);
             this.label7.TabIndex = 79;
             this.label7.Text = "Nombre Usuario:";
-            // 
-            // Rb_fem
-            // 
-            this.Rb_fem.AutoSize = true;
-            this.Rb_fem.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rb_fem.Location = new System.Drawing.Point(1249, 286);
-            this.Rb_fem.Name = "Rb_fem";
-            this.Rb_fem.Size = new System.Drawing.Size(104, 25);
-            this.Rb_fem.TabIndex = 78;
-            this.Rb_fem.TabStop = true;
-            this.Rb_fem.Text = "Femenino";
-            this.Rb_fem.UseVisualStyleBackColor = true;
-            // 
-            // Rb_mac
-            // 
-            this.Rb_mac.AutoSize = true;
-            this.Rb_mac.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rb_mac.Location = new System.Drawing.Point(1121, 286);
-            this.Rb_mac.Name = "Rb_mac";
-            this.Rb_mac.Size = new System.Drawing.Size(106, 25);
-            this.Rb_mac.TabIndex = 77;
-            this.Rb_mac.TabStop = true;
-            this.Rb_mac.Text = "Masculino";
-            this.Rb_mac.UseVisualStyleBackColor = true;
             // 
             // txt_edad
             // 
@@ -408,39 +375,58 @@
             this.label8.TabIndex = 87;
             this.label8.Text = "INFORMACION";
             // 
-            // rb_vnd
-            // 
-            this.rb_vnd.AutoSize = true;
-            this.rb_vnd.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rb_vnd.Location = new System.Drawing.Point(1249, 389);
-            this.rb_vnd.Name = "rb_vnd";
-            this.rb_vnd.Size = new System.Drawing.Size(103, 25);
-            this.rb_vnd.TabIndex = 89;
-            this.rb_vnd.TabStop = true;
-            this.rb_vnd.Text = "Vendedor";
-            this.rb_vnd.UseVisualStyleBackColor = true;
-            // 
-            // rb_grt
-            // 
-            this.rb_grt.AutoSize = true;
-            this.rb_grt.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rb_grt.Location = new System.Drawing.Point(1121, 389);
-            this.rb_grt.Name = "rb_grt";
-            this.rb_grt.Size = new System.Drawing.Size(89, 25);
-            this.rb_grt.TabIndex = 88;
-            this.rb_grt.TabStop = true;
-            this.rb_grt.Text = "Gerente";
-            this.rb_grt.UseVisualStyleBackColor = true;
-            // 
             // btn_nuevo
             // 
             this.btn_nuevo.Location = new System.Drawing.Point(344, 384);
             this.btn_nuevo.Name = "btn_nuevo";
             this.btn_nuevo.Size = new System.Drawing.Size(106, 38);
             this.btn_nuevo.TabIndex = 18;
-            this.btn_nuevo.Text = "NUEVO";
+            this.btn_nuevo.Text = "NUEVO PERSONAL";
             this.btn_nuevo.UseVisualStyleBackColor = true;
             this.btn_nuevo.Click += new System.EventHandler(this.btn_nuevo_Click);
+            // 
+            // cb_gnero
+            // 
+            this.cb_gnero.FormattingEnabled = true;
+            this.cb_gnero.Items.AddRange(new object[] {
+            "Masculino",
+            "Femenino"});
+            this.cb_gnero.Location = new System.Drawing.Point(1121, 286);
+            this.cb_gnero.Name = "cb_gnero";
+            this.cb_gnero.Size = new System.Drawing.Size(139, 21);
+            this.cb_gnero.TabIndex = 90;
+            // 
+            // cb_rol
+            // 
+            this.cb_rol.FormattingEnabled = true;
+            this.cb_rol.Items.AddRange(new object[] {
+            "Gerente",
+            "Vendedor",
+            "Personal"});
+            this.cb_rol.Location = new System.Drawing.Point(1121, 391);
+            this.cb_rol.Name = "cb_rol";
+            this.cb_rol.Size = new System.Drawing.Size(139, 21);
+            this.cb_rol.TabIndex = 91;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(1201, 431);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(106, 38);
+            this.button2.TabIndex = 92;
+            this.button2.Text = "NUEVO";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Venta_de_Coches.Properties.Resources.motors;
+            this.pictureBox1.Location = new System.Drawing.Point(728, 15);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(154, 82);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 23;
+            this.pictureBox1.TabStop = false;
             // 
             // Frm_gestionarUser
             // 
@@ -448,16 +434,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(1370, 494);
-            this.Controls.Add(this.rb_vnd);
-            this.Controls.Add(this.rb_grt);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.cb_rol);
+            this.Controls.Add(this.cb_gnero);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.txt_apellido);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txt_nomuser);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.Rb_fem);
-            this.Controls.Add(this.Rb_mac);
             this.Controls.Add(this.txt_edad);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label6);
@@ -498,7 +483,6 @@
         private System.Windows.Forms.Button btn_guardar;
         private System.Windows.Forms.Button btn_eliminar;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridView dgv_user;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
@@ -517,8 +501,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txt_nomuser;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.RadioButton Rb_fem;
-        private System.Windows.Forms.RadioButton Rb_mac;
         private System.Windows.Forms.TextBox txt_edad;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
@@ -531,8 +513,10 @@
         private System.Windows.Forms.TextBox txt_nombre;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.RadioButton rb_vnd;
-        private System.Windows.Forms.RadioButton rb_grt;
         private System.Windows.Forms.Button btn_nuevo;
+        private System.Windows.Forms.ComboBox cb_gnero;
+        private System.Windows.Forms.ComboBox cb_rol;
+        private System.Windows.Forms.Button button2;
+        public System.Windows.Forms.DataGridView dgv_user;
     }
 }

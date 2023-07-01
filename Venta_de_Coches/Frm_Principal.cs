@@ -57,5 +57,58 @@ namespace Venta_de_Coches
             Frm_gestionarUser user = new Frm_gestionarUser();
             user.ShowDialog();
         }
+        private void AbrirFrom(object formSec) {
+            if (this.panelC.Controls.Count > 0) { 
+              this.panelC.Controls.RemoveAt(0);
+                Form fh = formSec as Form;
+                fh.TopLevel = false;
+                fh.Dock = DockStyle.Fill;
+                this.panelC.Controls.Add(fh);
+                this.panelC.Tag = fh;
+                fh.Show();
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Frm_NewCoche frm_NewCoche = new Frm_NewCoche();
+            frm_NewCoche.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Frm_Registrar_venta venta = new Frm_Registrar_venta();
+            venta.ShowDialog(),
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Frm_Recibo rec = new Frm_Recibo();  
+            rec.ShowDialog();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Frm_reporte rep = new Frm_reporte();
+            rep.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Frm_buscar buscar = new Frm_buscar();
+            buscar.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Frm_gestionarUser usr = new Frm_gestionarUser();
+            usr.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Frm_CochesGestionar coh = new Frm_CochesGestionar();
+            coh.ShowDialog();
+        }
     }
 }

@@ -28,150 +28,155 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.bUSCARVEHICULOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gESTIONARUSUARIOSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gESTIONARVEHICULOSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rEALIZARCOMPRAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gENERARRECIBOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cREARREPORTESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nUEVOCOCHEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sALIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.bUSCARPERSONALToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
-            this.statusStrip1.SuspendLayout();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // panel1
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bUSCARVEHICULOToolStripMenuItem,
-            this.gESTIONARUSUARIOSToolStripMenuItem,
-            this.gESTIONARVEHICULOSToolStripMenuItem,
-            this.rEALIZARCOMPRAToolStripMenuItem,
-            this.gENERARRECIBOToolStripMenuItem,
-            this.cREARREPORTESToolStripMenuItem,
-            this.nUEVOCOCHEToolStripMenuItem,
-            this.sALIRToolStripMenuItem,
-            this.bUSCARPERSONALToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1040, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.button7);
+            this.panel1.Controls.Add(this.button6);
+            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.label8);
+            this.panel1.Location = new System.Drawing.Point(-1, -1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(829, 385);
+            this.panel1.TabIndex = 3;
             // 
-            // bUSCARVEHICULOToolStripMenuItem
+            // label8
             // 
-            this.bUSCARVEHICULOToolStripMenuItem.Name = "bUSCARVEHICULOToolStripMenuItem";
-            this.bUSCARVEHICULOToolStripMenuItem.Size = new System.Drawing.Size(106, 20);
-            this.bUSCARVEHICULOToolStripMenuItem.Text = "BUSCAR COCHE";
-            this.bUSCARVEHICULOToolStripMenuItem.Click += new System.EventHandler(this.bUSCARVEHICULOToolStripMenuItem_Click);
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Red;
+            this.label8.Location = new System.Drawing.Point(231, 27);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(216, 29);
+            this.label8.TabIndex = 89;
+            this.label8.Text = "QUE DESEA HACER HOY";
             // 
-            // gESTIONARUSUARIOSToolStripMenuItem
+            // button1
             // 
-            this.gESTIONARUSUARIOSToolStripMenuItem.Name = "gESTIONARUSUARIOSToolStripMenuItem";
-            this.gESTIONARUSUARIOSToolStripMenuItem.Size = new System.Drawing.Size(139, 20);
-            this.gESTIONARUSUARIOSToolStripMenuItem.Text = "GESTIONAR USUARIOS";
-            this.gESTIONARUSUARIOSToolStripMenuItem.Click += new System.EventHandler(this.gESTIONARUSUARIOSToolStripMenuItem_Click);
+            this.button1.Location = new System.Drawing.Point(60, 79);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(158, 41);
+            this.button1.TabIndex = 90;
+            this.button1.Text = "BUSCAR COCHE";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // gESTIONARVEHICULOSToolStripMenuItem
+            // button2
             // 
-            this.gESTIONARVEHICULOSToolStripMenuItem.Name = "gESTIONARVEHICULOSToolStripMenuItem";
-            this.gESTIONARVEHICULOSToolStripMenuItem.Size = new System.Drawing.Size(130, 20);
-            this.gESTIONARVEHICULOSToolStripMenuItem.Text = "GESTIONAR COCHES";
-            this.gESTIONARVEHICULOSToolStripMenuItem.Click += new System.EventHandler(this.gESTIONARVEHICULOSToolStripMenuItem_Click);
+            this.button2.Location = new System.Drawing.Point(60, 140);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(158, 41);
+            this.button2.TabIndex = 91;
+            this.button2.Text = "GESTIONAR USUARIOS";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // rEALIZARCOMPRAToolStripMenuItem
+            // button3
             // 
-            this.rEALIZARCOMPRAToolStripMenuItem.Name = "rEALIZARCOMPRAToolStripMenuItem";
-            this.rEALIZARCOMPRAToolStripMenuItem.Size = new System.Drawing.Size(124, 20);
-            this.rEALIZARCOMPRAToolStripMenuItem.Text = "REALIZAR COMPRA";
-            this.rEALIZARCOMPRAToolStripMenuItem.Click += new System.EventHandler(this.rEALIZARCOMPRAToolStripMenuItem_Click);
+            this.button3.Location = new System.Drawing.Point(60, 199);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(158, 41);
+            this.button3.TabIndex = 92;
+            this.button3.Text = "GESTIONAR COCHES";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // gENERARRECIBOToolStripMenuItem
+            // button4
             // 
-            this.gENERARRECIBOToolStripMenuItem.Name = "gENERARRECIBOToolStripMenuItem";
-            this.gENERARRECIBOToolStripMenuItem.Size = new System.Drawing.Size(113, 20);
-            this.gENERARRECIBOToolStripMenuItem.Text = "GENERAR RECIBO";
-            this.gENERARRECIBOToolStripMenuItem.Click += new System.EventHandler(this.gENERARRECIBOToolStripMenuItem_Click);
+            this.button4.Location = new System.Drawing.Point(247, 79);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(158, 41);
+            this.button4.TabIndex = 93;
+            this.button4.Text = "REALIZAR COMPRA";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // cREARREPORTESToolStripMenuItem
+            // button5
             // 
-            this.cREARREPORTESToolStripMenuItem.Name = "cREARREPORTESToolStripMenuItem";
-            this.cREARREPORTESToolStripMenuItem.Size = new System.Drawing.Size(111, 20);
-            this.cREARREPORTESToolStripMenuItem.Text = "CREAR REPORTES";
+            this.button5.Location = new System.Drawing.Point(247, 140);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(158, 41);
+            this.button5.TabIndex = 94;
+            this.button5.Text = "GENERAR RECIBO";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // nUEVOCOCHEToolStripMenuItem
+            // button6
             // 
-            this.nUEVOCOCHEToolStripMenuItem.Name = "nUEVOCOCHEToolStripMenuItem";
-            this.nUEVOCOCHEToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
-            this.nUEVOCOCHEToolStripMenuItem.Text = "NUEVO COCHE";
-            this.nUEVOCOCHEToolStripMenuItem.Click += new System.EventHandler(this.nUEVOCOCHEToolStripMenuItem_Click);
+            this.button6.Location = new System.Drawing.Point(247, 199);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(158, 41);
+            this.button6.TabIndex = 95;
+            this.button6.Text = "CREAR REPORTE";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // sALIRToolStripMenuItem
+            // button7
             // 
-            this.sALIRToolStripMenuItem.Name = "sALIRToolStripMenuItem";
-            this.sALIRToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
-            this.sALIRToolStripMenuItem.Text = "SALIR";
-            this.sALIRToolStripMenuItem.Click += new System.EventHandler(this.sALIRToolStripMenuItem_Click);
+            this.button7.Location = new System.Drawing.Point(434, 79);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(158, 41);
+            this.button7.TabIndex = 96;
+            this.button7.Text = "NUEVO AUTO";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
-            // statusStrip1
+            // pictureBox1
             // 
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 390);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1040, 22);
-            this.statusStrip1.TabIndex = 1;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(152, 17);
-            this.toolStripStatusLabel1.Text = "Importadora KING MOTORS";
-            // 
-            // bUSCARPERSONALToolStripMenuItem
-            // 
-            this.bUSCARPERSONALToolStripMenuItem.Name = "bUSCARPERSONALToolStripMenuItem";
-            this.bUSCARPERSONALToolStripMenuItem.Size = new System.Drawing.Size(121, 20);
-            this.bUSCARPERSONALToolStripMenuItem.Text = "BUSCAR USUARIOS";
+            this.pictureBox1.Image = global::Venta_de_Coches.Properties.Resources.motors;
+            this.pictureBox1.Location = new System.Drawing.Point(564, 185);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(188, 103);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 97;
+            this.pictureBox1.TabStop = false;
             // 
             // Frm_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1040, 412);
-            this.Controls.Add(this.statusStrip1);
-            this.Controls.Add(this.menuStrip1);
+            this.ClientSize = new System.Drawing.Size(763, 299);
+            this.Controls.Add(this.panel1);
             this.IsMdiContainer = true;
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Frm_Principal";
             this.Text = "Menu Principal";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem bUSCARVEHICULOToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gESTIONARUSUARIOSToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gESTIONARVEHICULOSToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem rEALIZARCOMPRAToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gENERARRECIBOToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cREARREPORTESToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sALIRToolStripMenuItem;
-        private System.Windows.Forms.StatusStrip statusStrip1;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
-        private System.Windows.Forms.ToolStripMenuItem nUEVOCOCHEToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bUSCARPERSONALToolStripMenuItem;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label8;
     }
 }

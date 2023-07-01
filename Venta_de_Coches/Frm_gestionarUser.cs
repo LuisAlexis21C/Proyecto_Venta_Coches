@@ -19,48 +19,16 @@ namespace Venta_de_Coches
 
         private void btn_nuevo_Click(object sender, EventArgs e)
         {
-            Frm_NewCoche COCHE = new Frm_NewCoche();
-            COCHE.ShowDialog();
+            Frm_usuario_nuevo us = new Frm_usuario_nuevo();
+            us.ShowDialog();
+
         }
 
         private void btn_edit_Click(object sender, EventArgs e)
         {
-            string genero, rol;
-            if (Rb_mac.Checked == true)
-            {
-                genero = "Masculino";
-            }
-            else
-            {
-                if (Rb_fem.Checked == true)
-                {
-                    genero = "Femenino";
-                }
-                else
-                {
-
-                    genero = "Sin Especificar";
-                }
-            }
-
-            if (rb_grt.Checked == true)
-            {
-                rol = "Gerente";
-            }
-            else
-            {
-                if (Rb_fem.Checked == true)
-                {
-                    rol = "Vendedor";
-                }
-                else
-                {
-
-                    rol = "Personal";
-                }
-            }
-
-            dgv_user.Rows.Add(txt_nombre.Text, txt_apellido.Text, txt_carnet.Text, rol, genero, txt_nomuser.Text, txt_direccion.Text, txt_celular.Text, txt_edad.Text, genero);
+            
+          
+            dgv_user.Rows.Add(txt_nombre.Text, txt_apellido.Text, txt_carnet.Text, cb_rol.Text,txt_nomuser.Text ,txt_direccion.Text, txt_celular.Text , txt_edad.Text, cb_gnero.Text);
         }
 
         private void btn_sal_Click(object sender, EventArgs e)
@@ -88,8 +56,39 @@ namespace Venta_de_Coches
 
         private void btn_vol_Click(object sender, EventArgs e)
         {
-            Frm_Principal pri = new Frm_Principal();
-            pri.ShowDialog();
+            this.Dispose();
+        }
+
+        private void dgv_user_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            txt_nombre.Text = "";
+            txt_apellido.Text = "";
+            txt_nomuser.Text = "";
+            txt_direccion.Text = "";
+            txt_carnet.Text = "";
+            txt_celular.Text = "";
+            cb_gnero.Text = "";
+            txt_edad.Text = "";
+            cb_rol.Text = "";
+
+        }
+
+        private void dgv_user_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txt_nombre.Text = dgv_user.CurrentRow.Cells[0].Value.ToString();
+            txt_apellido.Text = dgv_user.CurrentRow.Cells[1].Value.ToString();
+            txt_carnet.Text = dgv_user.CurrentRow.Cells[2].Value.ToString();
+            txt_direccion.Text = dgv_user.CurrentRow.Cells[3].Value.ToString();
+            txt_celular.Text = dgv_user.CurrentRow.Cells[4].Value.ToString();
+            cb_gnero.Text = dgv_user.CurrentRow.Cells[5].Value.ToString();
+            txt_edad.Text = dgv_user.CurrentRow.Cells[6].Value.ToString();
+            txt_nomuser.Text = dgv_user.CurrentRow.Cells[7].Value.ToString();
+            cb_rol.Text = dgv_user.CurrentRow.Cells[8].Value.ToString();
         }
     }
 }

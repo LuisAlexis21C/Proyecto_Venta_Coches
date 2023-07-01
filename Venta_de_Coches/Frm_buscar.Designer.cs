@@ -44,8 +44,8 @@
             this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -86,7 +86,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(98, 35);
             this.button1.TabIndex = 28;
-            this.button1.Text = "Buscar";
+            this.button1.Text = "BUSCAR";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
@@ -169,16 +169,6 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Venta_de_Coches.Properties.Resources.motors;
-            this.pictureBox1.Location = new System.Drawing.Point(809, 9);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(166, 96);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 30;
-            this.pictureBox1.TabStop = false;
-            // 
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(981, 185);
@@ -188,6 +178,16 @@
             this.button3.Text = "SALIR";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Venta_de_Coches.Properties.Resources.motors;
+            this.pictureBox1.Location = new System.Drawing.Point(809, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(166, 96);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 30;
+            this.pictureBox1.TabStop = false;
             // 
             // Frm_buscar
             // 
@@ -204,6 +204,7 @@
             this.Controls.Add(this.label10);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbl_registro);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Frm_buscar";
             this.Text = "Busqueda Coches";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

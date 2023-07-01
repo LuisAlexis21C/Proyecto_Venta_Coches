@@ -23,3 +23,4 @@ C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\bin\Debu
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\bin\Debug\EntityFramework.SqlServer.xml
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_NewCoche.resources
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.csproj.CopyComplete
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_Descuentos.resources

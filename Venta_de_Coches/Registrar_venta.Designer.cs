@@ -52,12 +52,10 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.label13 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.cb_tipo = new System.Windows.Forms.ComboBox();
+            this.cb_descuento = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -233,7 +231,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(138, 32);
             this.button1.TabIndex = 21;
-            this.button1.Text = "Generar recibo";
+            this.button1.Text = "GENERAR RECIBO";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -243,7 +241,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(138, 32);
             this.button2.TabIndex = 22;
-            this.button2.Text = "Volver";
+            this.button2.Text = "VOLVER";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // label10
@@ -279,30 +277,6 @@
             this.label12.TabIndex = 25;
             this.label12.Text = "OPCIONES";
             // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(178, 255);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(90, 24);
-            this.radioButton1.TabIndex = 26;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Contado";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(279, 255);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(82, 24);
-            this.radioButton2.TabIndex = 27;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Credito";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -312,28 +286,6 @@
             this.label13.Size = new System.Drawing.Size(82, 20);
             this.label13.TabIndex = 28;
             this.label13.Text = "Descuento:";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(177, 497);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(41, 24);
-            this.checkBox1.TabIndex = 29;
-            this.checkBox1.Text = "Si";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(291, 497);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(50, 24);
-            this.checkBox2.TabIndex = 30;
-            this.checkBox2.Text = "No";
-            this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -345,17 +297,37 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // cb_tipo
+            // 
+            this.cb_tipo.FormattingEnabled = true;
+            this.cb_tipo.Items.AddRange(new object[] {
+            "Contado",
+            "Credito"});
+            this.cb_tipo.Location = new System.Drawing.Point(177, 251);
+            this.cb_tipo.Name = "cb_tipo";
+            this.cb_tipo.Size = new System.Drawing.Size(121, 21);
+            this.cb_tipo.TabIndex = 31;
+            // 
+            // cb_descuento
+            // 
+            this.cb_descuento.FormattingEnabled = true;
+            this.cb_descuento.Items.AddRange(new object[] {
+            "Si",
+            "No"});
+            this.cb_descuento.Location = new System.Drawing.Point(177, 492);
+            this.cb_descuento.Name = "cb_descuento";
+            this.cb_descuento.Size = new System.Drawing.Size(121, 21);
+            this.cb_descuento.TabIndex = 32;
+            // 
             // Frm_Registrar_venta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(894, 539);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.cb_descuento);
+            this.Controls.Add(this.cb_tipo);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -416,10 +388,8 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.ComboBox cb_tipo;
+        private System.Windows.Forms.ComboBox cb_descuento;
     }
 }

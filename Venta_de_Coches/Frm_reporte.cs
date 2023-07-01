@@ -10,21 +10,16 @@ using System.Windows.Forms;
 
 namespace Venta_de_Coches
 {
-    public partial class Frm_buscar : Form
+    public partial class Frm_reporte : Form
     {
-        public Frm_buscar()
+        public Frm_reporte()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
-            this.Dispose();
-        }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }

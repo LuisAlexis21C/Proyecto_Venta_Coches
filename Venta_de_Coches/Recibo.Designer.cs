@@ -397,7 +397,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(131, 38);
             this.button1.TabIndex = 61;
-            this.button1.Text = "Imprimir";
+            this.button1.Text = "IMPRIMIR";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // Frm_Recibo

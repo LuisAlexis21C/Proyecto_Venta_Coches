@@ -81,6 +81,12 @@
     <Compile Include="Frm_Buscar_users.Designer.cs">
       <DependentUpon>Frm_Buscar_users.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Descuentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Descuentos.Designer.cs">
+      <DependentUpon>Frm_Descuentos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_gestionarUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,12 @@
     </Compile>
     <Compile Include="Frm_Principal.Designer.cs">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_reporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_reporte.Designer.cs">
+      <DependentUpon>Frm_reporte.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_usuario.cs">
       <SubType>Form</SubType>
@@ -136,6 +148,9 @@
     <EmbeddedResource Include="Frm_Buscar_users.resx">
       <DependentUpon>Frm_Buscar_users.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Descuentos.resx">
+      <DependentUpon>Frm_Descuentos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_gestionarUser.resx">
       <DependentUpon>Frm_gestionarUser.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Principal.resx">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_reporte.resx">
+      <DependentUpon>Frm_reporte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_usuario.resx">
       <DependentUpon>Frm_usuario.cs</DependentUpon>
@@ -181,6 +199,20 @@
   <ItemGroup>
     <None Include="Resources\motors.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\renault-trucks-t-high-4x2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limusina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aaa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuenta-perdidas-ganancias.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
