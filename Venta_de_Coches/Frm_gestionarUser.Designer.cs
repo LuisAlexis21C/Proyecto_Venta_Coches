@@ -32,7 +32,6 @@
             this.btn_vol = new System.Windows.Forms.Button();
             this.btn_guardar = new System.Windows.Forms.Button();
             this.btn_eliminar = new System.Windows.Forms.Button();
-            this.btn_nuevo = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.dgv_user = new System.Windows.Forms.DataGridView();
             this.nom = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -70,6 +69,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.rb_vnd = new System.Windows.Forms.RadioButton();
             this.rb_grt = new System.Windows.Forms.RadioButton();
+            this.btn_nuevo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_user)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -95,7 +95,7 @@
             // 
             // btn_guardar
             // 
-            this.btn_guardar.Location = new System.Drawing.Point(1121, 430);
+            this.btn_guardar.Location = new System.Drawing.Point(1067, 429);
             this.btn_guardar.Name = "btn_guardar";
             this.btn_guardar.Size = new System.Drawing.Size(106, 38);
             this.btn_guardar.TabIndex = 20;
@@ -112,16 +112,6 @@
             this.btn_eliminar.Text = "ELIMINAR";
             this.btn_eliminar.UseVisualStyleBackColor = true;
             this.btn_eliminar.Click += new System.EventHandler(this.btn_eliminar_Click);
-            // 
-            // btn_nuevo
-            // 
-            this.btn_nuevo.Location = new System.Drawing.Point(215, 384);
-            this.btn_nuevo.Name = "btn_nuevo";
-            this.btn_nuevo.Size = new System.Drawing.Size(106, 38);
-            this.btn_nuevo.TabIndex = 18;
-            this.btn_nuevo.Text = "NUEVO";
-            this.btn_nuevo.UseVisualStyleBackColor = true;
-            this.btn_nuevo.Click += new System.EventHandler(this.btn_nuevo_Click);
             // 
             // label2
             // 
@@ -441,6 +431,16 @@
             this.rb_grt.Text = "Gerente";
             this.rb_grt.UseVisualStyleBackColor = true;
             // 
+            // btn_nuevo
+            // 
+            this.btn_nuevo.Location = new System.Drawing.Point(361, 384);
+            this.btn_nuevo.Name = "btn_nuevo";
+            this.btn_nuevo.Size = new System.Drawing.Size(106, 38);
+            this.btn_nuevo.TabIndex = 18;
+            this.btn_nuevo.Text = "NUEVO";
+            this.btn_nuevo.UseVisualStyleBackColor = true;
+            this.btn_nuevo.Click += new System.EventHandler(this.btn_nuevo_Click);
+            // 
             // Frm_gestionarUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -496,7 +496,6 @@
         private System.Windows.Forms.Button btn_vol;
         private System.Windows.Forms.Button btn_guardar;
         private System.Windows.Forms.Button btn_eliminar;
-        private System.Windows.Forms.Button btn_nuevo;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dgv_user;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
@@ -533,5 +532,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.RadioButton rb_vnd;
         private System.Windows.Forms.RadioButton rb_grt;
+        private System.Windows.Forms.Button btn_nuevo;
     }
 }
