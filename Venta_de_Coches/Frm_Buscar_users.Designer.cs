@@ -58,6 +58,7 @@
             this.btn_sal.TabIndex = 34;
             this.btn_sal.Text = "SALIR";
             this.btn_sal.UseVisualStyleBackColor = true;
+            this.btn_sal.Click += new System.EventHandler(this.btn_sal_Click);
             // 
             // btn_vol
             // 
@@ -67,6 +68,7 @@
             this.btn_vol.TabIndex = 33;
             this.btn_vol.Text = "VOLVER";
             this.btn_vol.UseVisualStyleBackColor = true;
+            this.btn_vol.Click += new System.EventHandler(this.btn_vol_Click);
             // 
             // label2
             // 

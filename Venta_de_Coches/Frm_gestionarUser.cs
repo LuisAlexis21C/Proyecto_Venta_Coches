@@ -19,8 +19,8 @@ namespace Venta_de_Coches
 
         private void btn_nuevo_Click(object sender, EventArgs e)
         {
-            Frm_usuario_nuevo user = new Frm_usuario_nuevo();
-            user.ShowDialog();
+            Frm_NewCoche COCHE = new Frm_NewCoche();
+            COCHE.ShowDialog();
         }
 
         private void btn_edit_Click(object sender, EventArgs e)
@@ -84,6 +84,12 @@ namespace Venta_de_Coches
                     Close();    
                 }
             }
+        }
+
+        private void btn_vol_Click(object sender, EventArgs e)
+        {
+            Frm_Principal pri = new Frm_Principal();
+            pri.ShowDialog();
         }
     }
 }

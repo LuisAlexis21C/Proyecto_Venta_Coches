@@ -16,5 +16,16 @@ namespace Venta_de_Coches
         {
             InitializeComponent();
         }
+
+        private void btn_vol_Click(object sender, EventArgs e)
+        {
+            Frm_Principal frm_Principal = new Frm_Principal();
+            frm_Principal.ShowDialog();
+        }
+
+        private void btn_sal_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -26,5 +26,11 @@ namespace Venta_de_Coches
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Frm_gestionarUser us = new Frm_gestionarUser();
+            us.ShowDialog();
+        }
     }
 }

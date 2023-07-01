@@ -54,7 +54,10 @@
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox5
@@ -224,14 +227,14 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(479, 163);
+            this.dateTimePicker1.Location = new System.Drawing.Point(492, 115);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(192, 20);
             this.dateTimePicker1.TabIndex = 58;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(416, 355);
+            this.button1.Location = new System.Drawing.Point(416, 382);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(131, 37);
             this.button1.TabIndex = 59;
@@ -240,12 +243,13 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(553, 355);
+            this.button3.Location = new System.Drawing.Point(553, 382);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(131, 37);
             this.button3.TabIndex = 61;
             this.button3.Text = "Volver";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox8
             // 
@@ -284,13 +288,33 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Venta_de_Coches.Properties.Resources.motors;
-            this.pictureBox1.Location = new System.Drawing.Point(479, 23);
+            this.pictureBox1.Location = new System.Drawing.Point(529, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(192, 134);
+            this.pictureBox1.Size = new System.Drawing.Size(155, 97);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 57;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(475, 215);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(148, 129);
+            this.pictureBox2.TabIndex = 66;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label11.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Red;
+            this.label11.Location = new System.Drawing.Point(486, 168);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(137, 36);
+            this.label11.TabIndex = 67;
+            this.label11.Text = "Fotografia";
             // 
             // Frm_usuario_nuevo
             // 
@@ -298,6 +322,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(696, 441);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.textBox8);
@@ -330,6 +356,7 @@
             this.Text = "Gestionar Usuarios";
             this.Load += new System.EventHandler(this.Frm_usuario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -363,5 +390,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label11;
     }
 }

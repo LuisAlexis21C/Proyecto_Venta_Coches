@@ -92,10 +92,11 @@
             this.btn_vol.TabIndex = 21;
             this.btn_vol.Text = "VOLVER";
             this.btn_vol.UseVisualStyleBackColor = true;
+            this.btn_vol.Click += new System.EventHandler(this.btn_vol_Click);
             // 
             // btn_guardar
             // 
-            this.btn_guardar.Location = new System.Drawing.Point(1067, 429);
+            this.btn_guardar.Location = new System.Drawing.Point(1121, 431);
             this.btn_guardar.Name = "btn_guardar";
             this.btn_guardar.Size = new System.Drawing.Size(106, 38);
             this.btn_guardar.TabIndex = 20;
@@ -118,7 +119,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(422, 346);
+            this.label2.Location = new System.Drawing.Point(544, 347);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(111, 29);
             this.label2.TabIndex = 17;
@@ -433,7 +434,7 @@
             // 
             // btn_nuevo
             // 
-            this.btn_nuevo.Location = new System.Drawing.Point(361, 384);
+            this.btn_nuevo.Location = new System.Drawing.Point(344, 384);
             this.btn_nuevo.Name = "btn_nuevo";
             this.btn_nuevo.Size = new System.Drawing.Size(106, 38);
             this.btn_nuevo.TabIndex = 18;

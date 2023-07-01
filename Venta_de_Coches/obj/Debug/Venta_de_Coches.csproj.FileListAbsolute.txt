@@ -12,9 +12,14 @@ C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debu
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_CochesGestionar.resources
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_verificacion.resources
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_Recibo.resources
-C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_nuevo.resources
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_Registrar_venta.resources
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_buscar.resources
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_gestionarUser.resources
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_Buscar_users.resources
 C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_usuario_nuevo.resources
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\bin\Debug\EntityFramework.dll
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\bin\Debug\EntityFramework.SqlServer.dll
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\bin\Debug\EntityFramework.xml
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\bin\Debug\EntityFramework.SqlServer.xml
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.Frm_NewCoche.resources
+C:\ACTUALIZACION TECNOLOGICA\Codigo_uno\Venta_de_Coches\Venta_de_Coches\obj\Debug\Venta_de_Coches.csproj.CopyComplete

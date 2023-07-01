@@ -48,7 +48,7 @@ namespace Venta_de_Coches
 
         private void nUEVOCOCHEToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_nuevo nuevo = new Frm_nuevo();  
+            Frm_NewCoche nuevo = new Frm_NewCoche();  
             nuevo.ShowDialog();
         }
 

@@ -165,8 +165,9 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(124, 40);
             this.button2.TabIndex = 32;
-            this.button2.Text = "Volver";
+            this.button2.Text = "VOLVER";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox1
             // 
@@ -184,8 +185,9 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(124, 40);
             this.button3.TabIndex = 33;
-            this.button3.Text = "Salir";
+            this.button3.Text = "SALIR";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Frm_buscar
             // 
@@ -203,7 +205,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbl_registro);
             this.Name = "Frm_buscar";
-            this.Text = "Frm_buscar";
+            this.Text = "Busqueda Coches";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
